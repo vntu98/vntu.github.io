@@ -8,16 +8,15 @@
 <body>
     <script>
         window.__letroUgcGadget = window.__letroUgcGadget || {};
-        __letroUgcGadget.advertiser_id = 339;
+        __letroUgcGadget.advertiser_id = 15;
         (function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
             js = d.createElement(s); js.id = id;
-            js.src = "https://letro.jp/tags/js/letro.js";
+            js.src = "https://verify2.letro.jp/tags/js/letro.js";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'letro-jssdk'));
     </script>
-    
     <script>
         window.addEventListener('load', function() {
             var id = 'letro-review-js';
@@ -28,16 +27,16 @@
             var ram = new Date().getTime();
             var lrjs = document.createElement('script');
             lrjs.id = id;
-            lrjs.src = 'https://letro.jp/tags/js/letro-review.js?v=' + ram;
+            lrjs.src = 'https://verify2.letro.jp/tags/js/letro-review.js?v=' + ram;
             var lrs = document.createElement('link');
             lrs.id = sid;
             lrs.rel = 'stylesheet';
-            lrs.href = 'https://letro.jp/tags/css/letro-review.css?v=' + ram;
+            lrs.href = 'https://verify2.letro.jp/tags/css/letro-review.css?v=' + ram;
             document.body.appendChild(lrjs);
             document.head.appendChild(lrs);
             var ltag = document.createElement('div');
             ltag.setAttribute('class', '__letro-review-tag');
-            ltag.setAttribute('data-ec-site-id', '649934a66b318');
+            ltag.setAttribute('data-ec-site-id', '6500294279d16');
             document.body.appendChild(ltag);
         });
     </script>
